@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Dictionary";
+import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
