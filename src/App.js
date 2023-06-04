@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "./logo.png";
 import Dictionary from "./Dictionary";
 
 function App() {
@@ -7,14 +6,24 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <h1>Dictionary</h1>
         </header>
         <main>
           <Dictionary defaultKeyword="book" />
         </main>
 
         <footer className="text-center App-footer">
-          <small>Coded by Ketchadapron</small>
+          <small>
+            Coded by Ketchadapron and it is{" "}
+            <a
+              href="https://github.com/Ketchadaprons/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
